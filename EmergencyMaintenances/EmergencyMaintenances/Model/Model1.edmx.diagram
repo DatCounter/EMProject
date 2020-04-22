@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="aeac3899c8bd44e889cb12590bba3b04" Name="Diagram1">
+        <EntityTypeShape EntityType="Session2Model.Asset" Width="1.5" PointX="3" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Auth" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Detail" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.Request" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session2Model.sysdiagram" Width="1.5" PointX="12.5" PointY="2.25" IsExpanded="true" />
+        <AssociationConnector Association="Session2Model.FK_Asset_Auth" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Requests_Asset" ManuallyRouted="false" />
+        <AssociationConnector Association="Session2Model.FK_Requests_Details" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
